@@ -1,2 +1,13 @@
 <mat-toolbar color="primary"><span>Ristorante Con Fusion</span></mat-toolbar>
-<app-menu></app-menu>
+
+<div class="container" fxLayout="column" fxLayoutGap="10px">
+  <mat-grid-list cols="2">
+    <mat-grid-tile colspan="2"
+      ><app-menu class="menu__container"></app-menu
+    ></mat-grid-tile>
+    <mat-grid-tile>
+      <app-dishdetail></app-dishdetail>
+    </mat-grid-tile>
+    <mat-grid-tile><app-comments></app-comments></mat-grid-tile>
+  </mat-grid-list>
+</div>

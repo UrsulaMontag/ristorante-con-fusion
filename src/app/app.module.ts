@@ -14,9 +14,15 @@ import { AppComponent } from './app.component';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
-  declarations: [AppComponent, MenuComponent, DishdetailComponent],
+  declarations: [
+    AppComponent,
+    MenuComponent,
+    DishdetailComponent,
+    CommentsComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
